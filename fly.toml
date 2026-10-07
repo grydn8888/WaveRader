@@ -11,10 +11,6 @@ primary_region = "iad"
   cpus = 1
   memory_mb = 512
 
-[mounts]
-  source = "trade_data"
-  destination = "/data"
-
 [processes]
   app = "python engine.py"
 
