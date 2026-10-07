@@ -1,4 +1,4 @@
-app = "playa-swurv-engine"
+app = "waverader"
 primary_region = "iad"
 
 [build]
