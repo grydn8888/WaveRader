@@ -26,7 +26,7 @@ def calculate_setup_scores(df):
     return timestamp, latest['Close'], latest['compression_pctl'], latest['gravity']
 
 def log_scan_result(timestamp, price, comp_score, gravity_score, triggered):
-    log_file = "/data/scan_history.csv"
+    log_file = "scan_history.csv"
     file_exists = os.path.isfile(log_file)
     new_row = pd.DataFrame([{
         'Timestamp': timestamp,
